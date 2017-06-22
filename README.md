@@ -23,9 +23,9 @@ Run versions [:]
  - When you enter modes and modules files into the MTA configuration file, you can make the server ready.
 
  ● If your processor is Linux,
-   ● <module src="mta_mysql.so" />
-   ● <module src="sha.so" />
+   ● module src="mta_mysql.so"
+   ● module src="sha.so"
  
  ● If your processor is Windows,
-   ● <module src="mta_mysql.dll" />
-   ● <module src="sha.dll" />
+   ● module src="mta_mysql.dll"
+   ● module src="sha.dll"
